@@ -32,10 +32,10 @@
       /* Custom page CSS
       -------------------------------------------------- */
       /* Not required for template or sticky footer method. */
-
       .container {
         width: auto;
-        max-width: 680px;
+        max-width: 750px;
+        /*background-color: #CAD6DB;*/
       }
       .container .credit {
         margin: 20px 0;
@@ -44,15 +44,17 @@
       {
         text-align:center;
         margin-top:50px;
-        color:#669bcc;
+        color:#3B6C7D;
       }
       h4
       {
-        color:#2e83ff;
+        color:#3B6CC1;
       }
       #detail
       {
-        margin-top:20px;
+        margin-top:40px;
+        font-size: 14px;
+        letter-spacing: 1px;
       }
       #detail ul
       {
@@ -66,9 +68,9 @@
       {
         background-color:#ccc;
         display:inline-block;
-        width:140px;
+        /*width:140px;*/
         text-align:center;
-        margin-top:60px;
+        margin-top:60px;        
       }
 
 </style>
@@ -96,7 +98,8 @@
 	</div>
 
 	<!-- 内容 -->
-	<div class="content">
+	<div class="content" style="background-color:#D2FFCC;width:800px;margin:0 auto;padding-bottom: 100px;
+                              padding-top: 20px;">
     <h3>SpringMVC</h3>
     <div class="container">
       <div>
@@ -104,8 +107,8 @@
           <h4>简介</h4>
         </span>
       </div>
-      <div id="detail" style="margin-top:20px;">
-          Spring 框架提供了构建 Web 应用程序的全功能 MVC 模块。使用 Spring 可插入的 MVC 架构，可以选择是使用内置的 Spring Web 框架还是 Struts 这样的 Web 框架。通过策略接口，Spring 框架是高度可配置的，而且包含多种视图技术，例如 JavaServer Pages（JSP）技术、Velocity、Tiles、iText 和 POI。Spring MVC 框架并不知道使用的视图，所以不会强迫您只使用 JSP 技术。Spring MVC 分离了控制器、模型对象、分派器以及处理程序对象的角色，这种分离让它们更容易进行定制。
+      <div id="detail">
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbspSpring 框架提供了构建 Web 应用程序的全功能 MVC 模块。使用 Spring 可插入的 MVC 架构，可以选择是使用内置的 Spring Web 框架还是 Struts 这样的 Web 框架。通过策略接口，Spring 框架是高度可配置的，而且包含多种视图技术，例如 JavaServer Pages（JSP）技术、Velocity、Tiles、iText 和 POI。Spring MVC 框架并不知道使用的视图，所以不会强迫您只使用 JSP 技术。Spring MVC 分离了控制器、模型对象、分派器以及处理程序对象的角色，这种分离让它们更容易进行定制。
       </div>
     </div>
     <div class="container">
@@ -115,8 +118,7 @@
         </span>
       </div>
       <div id="detail">
-        Lifecycle for overriding binding, validation, etc.；易于同其它View框架（Titles等）无缝集成，采用IOC便于测试。
-　　    它是一个典型的教科书式的mvc构架，而不像struts等都是变种或者不是完全基于mvc系统的框架，对于初学者或者想了解mvc的人来说我觉得它和tapestry一样是一个纯正的servlet系统，这也是它和tapestry相比 struts所没有的优势。而且框架本身有代码，而且看起来也不费劲比较简单可以理解。
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspLifecycle for overriding binding, validation, etc.；易于同其它View框架（Titles等）无缝集成，采用IOC便于测试。它是一个典型的教科书式的mvc构架，而不像struts等都是变种或者不是完全基于mvc系统的框架，对于初学者或者想了解mvc的人来说我觉得它和tapestry一样是一个纯正的servlet系统，这也是它和tapestry相比 struts所没有的优势。而且框架本身有代码，而且看起来也不费劲比较简单可以理解。
       </div>
     </div>
     <div class="container">
