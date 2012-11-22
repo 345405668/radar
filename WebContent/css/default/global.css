@@ -34,3 +34,60 @@ body, p, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, label, table
 .search_banner{ position:absolute; right:0; top:55px; background-position: -435px 0; width: 181px; height: 32px; } 
 .triangle1_left{ background-position: -621px 0; width: 24px; height: 52px; }
 .triangle1_right{ background-position: -650px 0; width: 24px; height: 52px; }  */ 
+
+/*技术集合页样式 */
+a:link, a:visited, ins {
+    text-decoration: none;
+}
+ul, li {list-style: none outside none;}
+
+.content{height:560px;}
+.contain{margin:0 auto; width:70%;margin-top:30px;}
+.tit{float:left; border-bottom:1px solid #D5D5D5; height:35px; line-height:35px; width:100%; margin-bottom:20px; font-family:"Microsoft Yahei";}
+.tit h2{float:left; margin-left: 15px; font-size:20px; font-weight:700; font-family:微软雅黑E\8F6F\96C5\9ED1; color:black; height:32px; line-height:32px;}
+.extend{float:right; margin-right:50px; font-size:13px; line-height:43px;}
+.extend a{color:#666; text-decoration:none;}
+.extend i{margin:0 10px;}
+
+.tab{height:25px; line-height:25px; width:100%; padding:0 10px; font-family:"Microsoft Yahei";}
+.tab .sort-font{float:left; font-size:12px; color:#0AE; margin:0 5px;}
+.tab .sort-group{float:left; height:24px; line-height:24px;}
+.tab .sort-group .sort-button{float:left; padding:0 20px; margin-left:-1px; border:1px solid #D5D5D5; background:#EFF4F7; color:#40515A; font-size:12px; text-decoration:none;}
+.sort-group .sort-button:hover { background: #4bbefb; color: #fff; text-decoration: none; }
+.sort-group .sort-button:active { background: #24a4e5; color: #fff; }
+.tab .sort-group .first{margin:0; border-radius:4px 0 0 4px;}
+.tab .sort-group .active{background:#24A4E5; color:#fff;}
+.tab .sort-group .last{margin:0; border-radius:0 4px 4px 0;}
+
+.tech-list{float:left; margin-top:15px; width:100%; padding:0 10px;}
+.tech-list .item{width:100%;}
+.tech-list .item h2{float:left; border-bottom:1px dashed #cccccc; width:98%; font-size:15px;padding:0;font-family:"Microsoft Yahei";color:#888;font-weight:400;height:40px;line-height:45px;}
+.tech-list .item h2 i{float:left; margin-right:20px;font-size:17px;}
+.tech-list .item h2 span{float:left; line-height:45px;}
+.item ul { padding: 20px;}
+.item ul li {float:left; margin:20px 35px 20px 35px;}
+.item ul li a { border-radius: 3px 3px 3px 3px; color: #0AE; display: inline-block; font-size: 14px; padding: 5px 10px; transition: all 0.2s ease-out 0s;}
+.item a:hover {
+    background-color: #0099FF;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+}
+.item a:active {
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
