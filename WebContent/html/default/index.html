@@ -42,7 +42,8 @@
       }
       
       /* This rule is read by Galleria to define the gallery height: */
-	  #galleria{height:320px}
+	  #galleria{height:420px}
+	  .galleria-info-link{background-color: #fff;}
       
 </style>
 </head>
@@ -75,17 +76,17 @@ The custom software experts.. a company wholly devoted to the art and science of
 				</pre>
 			</div>
 			
-			 <div id="galleria">
-
-            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+			 <div id="galleria" class="techs_show">
+			
+            <a href="http://www.thoughtworks.com/sites/www.thoughtworks.com/files/images/52/technology-radar-october-2012-alt-postcard.jpg">
                 <img data-title="Locomotives Roundhouse"
                      data-description="Steam locomotives of the Chicago &amp; North Western Railway."
-                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
+                     src="http://www.thoughtworks.com/sites/www.thoughtworks.com/files/images/52/technology-radar-october-2012-alt-postcard.jpg">
             </a>
-            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/1000px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+            <a href="../../img/show_img/less.png">
                 <img data-title="Icebergs in the High Arctic"
                      data-description="”The debris loading isn't particularly extensive, but the color is usual.”"
-                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/100px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+                     src="../../img/show_img/less.png">
             </a>
             
         </div>
@@ -104,7 +105,7 @@ The custom software experts.. a company wholly devoted to the art and science of
 <script src="../../js/galleria-1.2.8.min.js"></script>
     <script>	
     // Load the classic theme
-    Galleria.loadTheme('../../js/galleria.classic.js');
+    Galleria.loadTheme('../../js/galleria.classic.min.js');
 
     // Initialize Galleria
     Galleria.run('#galleria');

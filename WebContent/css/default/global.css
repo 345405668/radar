@@ -12,9 +12,12 @@ body, p, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, label, table
 .menu_on { color:#f0ff00!important; }
 .common_icons{ background-image: url('bgimg/common_icons.png');display: block;}
 .logo{ background-position: -328px 0; width: 102px; height: 84px; } 
+
 /* 首页样式  */
 .left_banner{float:left;margin-right:15px;width:30%;height: 500px;}
 .blue_bac_white_font{background: #00a9e6;color:#fff;}
+.techs_show{width:70%}
+
 /*技术集合页样式 */
 a:link, a:visited, ins {
     text-decoration: none;
