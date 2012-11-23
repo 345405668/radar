@@ -40,6 +40,10 @@
       .container .credit {
         margin: 20px 0;
       }
+      
+      /* This rule is read by Galleria to define the gallery height: */
+	  #galleria{height:320px}
+      
 </style>
 </head>
 <body>
@@ -63,7 +67,31 @@
 			</ul>
 		</div>
 	</div>
-	<div style="height: 500px;"></div>
+	<div class="content">
+		<div class="contain">
+			<div class="left_banner">
+				<pre class="blue_bac_white_font">ThoughtWorks 
+The custom software experts.. a company wholly devoted to the art and science of custom software. We make it, and we make our clients better at it. Our bottom line is to design and deliver software fast and predictably. 
+				</pre>
+			</div>
+			
+			 <div id="galleria">
+
+            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/800px-Locomotives-Roundhouse2.jpg">
+                <img data-title="Locomotives Roundhouse"
+                     data-description="Steam locomotives of the Chicago &amp; North Western Railway."
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Locomotives-Roundhouse2.jpg/100px-Locomotives-Roundhouse2.jpg">
+            </a>
+            <a href="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/1000px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+                <img data-title="Icebergs in the High Arctic"
+                     data-description="”The debris loading isn't particularly extensive, but the color is usual.”"
+                     src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Icebergs_in_the_High_Arctic_-_20050907.jpg/100px-Icebergs_in_the_High_Arctic_-_20050907.jpg">
+            </a>
+            
+        </div>
+						
+		</div>
+	</div>
     <div id="footer">
       <div class="container">
         <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
@@ -73,4 +101,14 @@
 </body>
 <script type="text/javascript" src="../../js/jquery.js"></script>
 <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+<script src="../../js/galleria-1.2.8.min.js"></script>
+    <script>	
+    // Load the classic theme
+    Galleria.loadTheme('../../js/galleria.classic.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
+
 </html>

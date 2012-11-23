@@ -12,36 +12,16 @@ body, p, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, label, table
 .menu_on { color:#f0ff00!important; }
 .common_icons{ background-image: url('bgimg/common_icons.png');display: block;}
 .logo{ background-position: -328px 0; width: 102px; height: 84px; } 
-/* .blue2_round{ width: 150px;}
-.blue2_round .blue2_content{ display:inline-block; width:45px; height: 39px; background-color: #0091ff; border-bottom: #d5d5d5 1px; border-top: #d5d5d5 1px; line-height: 39px;}
-.blue2_round .blue2_left{ display: inline-block;}
-.blue2_round .blue2_right{ display: inline-block;}
-.blue1_bottom_left{ background-position: 0 0; width: 10px; height: 12px; } 
-.blue1_bottom_right{ background-position: -15px 0; width: 10px; height: 12px; } 
-.blue1_top_left{ background-position: -30px 0; width: 10px; height: 12px; } 
-.blue1_top_right{ background-position: -45px 0; width: 10px; height: 12px; } 
-.blue2_left{ background-position: -60px 0; width: 19px; height: 39px; } 
-.blue2_right{ background-position: -84px 0; width: 19px; height: 39px; } 
-.blue3_left{ background-position: -108px 0; width: 19px; height: 48px; } 
-.blue3_right{ background-position: -132px 0; width: 19px; height: 48px; } 
-.btn1_left{ background-position: -156px 0; width: 27px; height: 44px; } 
-.btn1_right{ background-position: -188px 0; width: 27px; height: 44px; } 
-.grey1_left{ background-position: -220px 0; width: 19px; height: 46px; } 
-.grey1_right{ background-position: -244px 0; width: 19px; height: 46px; } 
-.grey2_left{ background-position: -268px 0; width: 25px; height: 57px; } 
-.grey2_right{ background-position: -298px 0; width: 25px; height: 57px; } 
-
-.search_banner{ position:absolute; right:0; top:55px; background-position: -435px 0; width: 181px; height: 32px; } 
-.triangle1_left{ background-position: -621px 0; width: 24px; height: 52px; }
-.triangle1_right{ background-position: -650px 0; width: 24px; height: 52px; }  */ 
-
+/* 首页样式  */
+.left_banner{float:left;margin-right:15px;width:30%;height: 500px;}
+.blue_bac_white_font{background: #00a9e6;color:#fff;}
 /*技术集合页样式 */
 a:link, a:visited, ins {
     text-decoration: none;
 }
 ul, li {list-style: none outside none;}
 
-.content{height:560px;}
+.content{height:auto; min-height: 560px;}
 .contain{margin:0 auto; width:70%;margin-top:30px;}
 .tit{float:left; border-bottom:1px solid #D5D5D5; height:35px; line-height:35px; width:100%; margin-bottom:20px; font-family:"Microsoft Yahei";}
 .tit h2{float:left; margin-left: 15px; font-size:20px; font-weight:700; font-family:微软雅黑E\8F6F\96C5\9ED1; color:black; height:32px; line-height:32px;}
